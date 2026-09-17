@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdfa90d2-f7e8-4157-888e-f0932e0cccbc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="bdfa90d2-f7e8-4157-888e-f0932e0cccbc" name="Changes" comment="Initial dataset inspection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/01_data_ingestion.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/01_data_ingestion.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,80 +22,81 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "amanullah-ops"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;amanullah-ops&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="731a078d-cd2b-42eb-a4f6-097d901c5a70" />
+    <option name="defaultAccountId" value="6f72e1f2-2ffc-4578-b891-65e0ed54d4b1" />
   </component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/amanullah-ops/customer-churn-prediction.git",
-    "accountId": "731a078d-cd2b-42eb-a4f6-097d901c5a70"
+    "accountId": "6f72e1f2-2ffc-4578-b891-65e0ed54d4b1"
   }
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.6437282813834928" />
-      <entry key="MS500" value="3.731604980194167" />
-      <entry key="S2" value="6.643269978532443" />
-      <entry key="S5" value="13.115730965663547" />
-      <entry key="S10" value="21.23778398388275" />
-      <entry key="S30" value="34.85820569446397" />
-      <entry key="S60" value="43.447466930924655" />
-      <entry key="M2" value="51.321367261996514" />
-      <entry key="M5" value="62.083891444617514" />
-      <entry key="M10" value="71.46567221142175" />
-      <entry key="M15" value="76.8954223992211" />
-      <entry key="M30" value="85.79361399273469" />
-      <entry key="H1" value="93.60500239474312" />
-      <entry key="H2" value="99.31421928549649" />
-      <entry key="H4" value="102.85922968850632" />
-      <entry key="D1" value="106.26326652472127" />
-      <entry key="W1" value="106.89353549625673" />
+      <entry key="MS100" value="8.02813698365541E-13" />
+      <entry key="MS500" value="0.003847546303197391" />
+      <entry key="S2" value="0.6609320300420848" />
+      <entry key="S5" value="3.3801449428393577" />
+      <entry key="S10" value="6.701106109190301" />
+      <entry key="S30" value="14.330232191111216" />
+      <entry key="S60" value="18.949138100452863" />
+      <entry key="M2" value="22.939617523628364" />
+      <entry key="M5" value="32.530536201488424" />
+      <entry key="M10" value="50.69877692377496" />
+      <entry key="M15" value="65.66080857494723" />
+      <entry key="M30" value="92.71118991088608" />
+      <entry key="H1" value="115.57401116202607" />
+      <entry key="H2" value="131.43370225703362" />
+      <entry key="H4" value="141.00866072738" />
+      <entry key="D1" value="150.05702353886767" />
+      <entry key="W1" value="151.7195245004199" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="9.491045953348473E-159" />
-      <entry key="MS500" value="2.497751815707178E-32" />
-      <entry key="S2" value="1.5864172321718695E-8" />
-      <entry key="S5" value="0.001096442907530387" />
-      <entry key="S10" value="0.0464218606126018" />
-      <entry key="S30" value="0.5695543941784107" />
-      <entry key="S60" value="1.0881432184397326" />
-      <entry key="M2" value="1.716146155097855" />
-      <entry key="M5" value="3.0824381898211" />
-      <entry key="M10" value="4.360198670907457" />
-      <entry key="M15" value="5.052978074464555" />
-      <entry key="M30" value="6.06148098443787" />
-      <entry key="H1" value="6.829120936288616" />
-      <entry key="H2" value="7.344556134967396" />
-      <entry key="H4" value="7.651358958749902" />
-      <entry key="D1" value="7.938636296163034" />
-      <entry key="W1" value="7.9911489292134075" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.000000000000039" />
+      <entry key="S60" value="1.0000002853729222" />
+      <entry key="M2" value="1.0008788557995416" />
+      <entry key="M5" value="1.148812604338054" />
+      <entry key="M10" value="1.958029646067119" />
+      <entry key="M15" value="2.83990695306938" />
+      <entry key="M30" value="4.6576569476709935" />
+      <entry key="H1" value="6.30489650323135" />
+      <entry key="H2" value="7.473238528605615" />
+      <entry key="H4" value="8.183177612801" />
+      <entry key="D1" value="8.855531542283307" />
+      <entry key="W1" value="8.979144323623114" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.5636885345167006" />
-      <entry key="MS500" value="3.660113920968408" />
-      <entry key="S2" value="6.612414125715318" />
-      <entry key="S5" value="13.097431269245332" />
-      <entry key="S10" value="21.26767145951492" />
-      <entry key="S30" value="35.40954691630665" />
-      <entry key="S60" value="44.51910143593924" />
-      <entry key="M2" value="53.01785379497308" />
-      <entry key="M5" value="65.13565333600579" />
-      <entry key="M10" value="75.7949623981299" />
-      <entry key="M15" value="81.92130082771932" />
-      <entry key="M30" value="91.83634956739246" />
-      <entry key="H1" value="100.42261521645509" />
-      <entry key="H2" value="106.65227653475839" />
-      <entry key="H4" value="110.50711355956963" />
-      <entry key="D1" value="114.20128806364804" />
-      <entry key="W1" value="114.88459566922157" />
+      <entry key="MS100" value="1.5169873380278653E-11" />
+      <entry key="MS500" value="0.006928920197944657" />
+      <entry key="S2" value="0.775458850840433" />
+      <entry key="S5" value="3.7691683711095756" />
+      <entry key="S10" value="7.318243894461971" />
+      <entry key="S30" value="15.179054431638672" />
+      <entry key="S60" value="19.8699068370452" />
+      <entry key="M2" value="23.899804353205607" />
+      <entry key="M5" value="33.661172891479765" />
+      <entry key="M10" value="52.64153172016261" />
+      <entry key="M15" value="68.48515042896722" />
+      <entry key="M30" value="97.35466154960388" />
+      <entry key="H1" value="121.86852394817208" />
+      <entry key="H2" value="138.90048886747863" />
+      <entry key="H4" value="149.18821337312124" />
+      <entry key="D1" value="158.9118862680096" />
+      <entry key="W1" value="160.69857155771456" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -148,12 +149,44 @@
       <workItem from="1788618408203" duration="2476000" />
       <workItem from="1788678472087" duration="675000" />
       <workItem from="1788679170549" duration="16000" />
-      <workItem from="1789654691137" duration="806000" />
+      <workItem from="1789654691137" duration="2331000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial dataset inspection">
+      <option name="closed" value="true" />
+      <created>1789655594576</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1789655594576</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial dataset inspection">
+      <option name="closed" value="true" />
+      <created>1789655606801</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789655606801</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial dataset inspection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial dataset inspection" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/customer_churn_prediction$rough.coverage" NAME="rough Coverage Results" MODIFIED="1788622334268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
