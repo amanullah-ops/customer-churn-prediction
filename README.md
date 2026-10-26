@@ -8,6 +8,11 @@ This is my first end-to-end machine learning project, focused on data analysis, 
 
 ## Dataset
 
+**Source:** IBM Telco Customer Churn sample dataset.  
+      Original dataset: https://github.com/IBM/telco-customer-churn-on-icp4d/blob/master/data/Telco-Customer-Churn.csv
+
+      The dataset represents a fictional telecommunications company and is used here for educational machine learning practice. Please refer to the original repository for source and licensing information.
+
 The dataset contains 7,043 customer records with information about customer tenure, contract type, services, payment methods, and charges.
 
 The target variable is `Churn`, which indicates whether a customer left the service.
